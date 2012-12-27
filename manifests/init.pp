@@ -1,5 +1,5 @@
 # Installs the Oracle JRE 1.7.0 u10
-class jre7 {
+class oraclejre7 {
   notice("jre7_version is '${::jre7_version}'")
   unless $::jre7_version =~ /1.7.0[_-]10/ {
     case $::operatingsystem {

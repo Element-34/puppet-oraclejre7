@@ -20,7 +20,7 @@ To use in your Puppet manifests, include the _jre7_ module.
 
 ```ruby
 node default {
-  include jre7
+  include oraclejre7
 }
 ```
 

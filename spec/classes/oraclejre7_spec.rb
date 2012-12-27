@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'jre7' do
+describe 'oraclejre7' do
   context 'on Debian' do
     context '32 bit' do
       let(:facts) { {:jre7_version => nil, :operatingsystem => 'Debian', :architecture => 'i386'} }
