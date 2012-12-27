@@ -14,7 +14,7 @@ consistency trumps ease in my books.)
 In theory it will also work on Debian and RedHat, but was not tried.
 
 The module contains the actually installers as downloaded from Oracle. If you use them,
-you are implicitly agreeing to the [Oracle Binary Code License Agreement] ](http://www.oracle.com/technetwork/java/javase/terms/license/index.html).
+you are implicitly agreeing to the [Oracle Binary Code License Agreement] (http://www.oracle.com/technetwork/java/javase/terms/license/index.html).
 
 To use in your Puppet manifests, include the _jre7_ module.
 
