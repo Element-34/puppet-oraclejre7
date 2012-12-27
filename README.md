@@ -14,7 +14,10 @@ consistency trumps ease in my books.)
 In theory it will also work on Debian and RedHat, but was not tried.
 
 The module contains the actually installers as downloaded from Oracle. If you use them,
-you are implicitly agreeing to the [Oracle Binary Code License Agreement] (http://www.oracle.com/technetwork/java/javase/terms/license/index.html).
+you are implicitly agreeing to the [Oracle Binary Code License Agreement] (http://www.oracle.com/technetwork/java/javase/terms/license/index.html). This also means
+that this repo is _HUGE_. (A future improvement could be do download the installers from
+Oracle as needed, but I don't know if that's even possible. And I like having things in my
+puppetmaster.)
 
 To use in your Puppet manifests, include the _jre7_ module.
 
@@ -24,6 +27,6 @@ node default {
 }
 ```
 
-Note: Ubuntu/Debian support was achieved by running the RPM through _alient -- scripts_ and
+Note: Ubuntu/Debian support was achieved by running the RPM through _alien -- scripts_ and
 then updating the version to be Debian compliant using the _dev-revision_ utility that is in
 the _devscripts_ package.
